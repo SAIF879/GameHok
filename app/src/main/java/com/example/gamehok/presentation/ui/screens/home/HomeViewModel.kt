@@ -24,6 +24,7 @@ class HomeViewModel @Inject constructor(
 
     init {
         fetchGames()
+        fetchTournaments()
     }
 
     private val _tournamentList =
